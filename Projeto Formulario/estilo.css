@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+h1{
+   width: 350px;
+   color: white;
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: 30px;
+   margin-bottom: 15px;
+   
+}
+
+
+
+#formulario{       
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+#box1{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding: 0 0 25px;
+    gap: 30px;
+    border: none;
+    color: #8c0396;
+    border-bottom: 2px solid #fd054b;
+   
+}
+
+#box2{
+display: flex;
+border: none;
+padding-top: 25px;
+gap: 100px;
+color: #8c0396;
+padding-bottom: 35px;
+width: 50px;
+}
+
+#c{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#b{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+input{
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px #fd054b ;
+    color:#8c0396;
+    
+}
+
+button{
+    padding: 7px;
+    border-radius: 6px;
+    background: linear-gradient(45deg, #fd054b, #ff4ff3, #8c0396, #ffd207,#fd054b);
+    color:white;
+    border: none;    
+}
+
+body{
+    background: linear-gradient(45deg, #fd054b, #ff4ff3, #8c0396, #ffd207,#fd054b);
+}
+
+#form{
+    padding: 70px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 10px 10px #05132c;
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+
+
+.campo label {
+    margin-bottom: 0.2em;
+    color:#8c0396;
+    display: block;
+}
+#final{
+    display: flex;
+    padding-left: 280px;
+}
+
+.grupo{
+    padding: 10px;
+}
+
+.grupo input[type="checkbox"]{
+    background-color: #fd054b;
+    margin-left: 10px;    
+}
